@@ -6,11 +6,11 @@ import { Container, Separator } from './styles';
 const ServerList: React.FC = () => {
     return (
         <Container>
-            <ServerButton  />
+            <ServerButton isHome />
 
             <Separator/>
 
-            <ServerButton isHome/>
+            <ServerButton isHome />
             <ServerButton hasNotifications/>
             <ServerButton mentions={3} />
             <ServerButton/>
