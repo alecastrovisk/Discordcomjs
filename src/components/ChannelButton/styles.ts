@@ -28,7 +28,8 @@ export const Container = styled.div`
 
     }
 
-    &:hover, &.active {
+    &:hover,
+    &.active {
         background-color: var(--quinary);
 
         >div span {
@@ -36,7 +37,7 @@ export const Container = styled.div`
         }
 
     }
-   
+    
 `;
 
 export const HashtagIcon = styled(Hashtag)`
